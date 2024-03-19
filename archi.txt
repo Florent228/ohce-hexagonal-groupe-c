@@ -1,0 +1,7 @@
+project/
+│
+├── main.py          # Point d'entrée de l'application
+├── greeter.py       # Définition de la classe Greeter
+├── mirror_app.py    # Définition de la classe MirrorApp
+├── language_support.py  # Gestion des langues
+└── api_wrapper.py   # Wrapper API (optionnel)
