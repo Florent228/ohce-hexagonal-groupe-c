@@ -1,0 +1,10 @@
+L’application renvoie en miroir ce que vous écrivez.
+A démarrage elle vous dit bonjour selon le moment de la journée (Bonjour, Bonsoir, etc.) dans votre langue.
+Français
+Anglais
+Support pour d’autres langues
+Si vous saisissez un palindrome, elle répond « Bien dit ! » dans votre langue.
+A l’arrêt, elle vous dit au revoir, là aussi selon le moment de la journée.
+L’application peut fonctionner en Console, ou exposer une API.
+
+
