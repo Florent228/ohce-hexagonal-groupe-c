@@ -1,14 +1,10 @@
-from Traduction_En import Traduction_En
-from Traduction_Fr import Traduction_Fr
+from Langue import Langue
 from Mirror import Mirror
 from Time import Time
-import locale
 
-langue_locale = locale.getlocale()[0]
-code_langue = langue_locale.split('_')[0]
+
+# Haut niveau
 time = Time.getTime()
-langue = Traduction_En(time) if code_langue == 'en' else Traduction_Fr(time)
+langue = Langue(time).getLanguage()
 mirror = Mirror(langue)
-mirror.getInput()
 mirror.mirror()
-langue.goodbye()
