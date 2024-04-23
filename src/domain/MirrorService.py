@@ -8,8 +8,11 @@ class MirrorService:
         self.mot = ""
         self.time = time
 
-    def getWord(self, mot):
+    def setWord(self, mot):
         self.mot = mot
+        
+    def getWord(self):
+        return self.mot
 
     def mirror(self):
         nouveau_mot = self.mot[::-1]

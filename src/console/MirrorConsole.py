@@ -7,7 +7,7 @@ class MirrorConsole:
 
     def getInput(self):
 
-        self.mirror_service.getWord(input())
+        self.mirror_service.setWord(input())
 
     def mirrorWord(self):
         print(self.mirror_service.greeting())
